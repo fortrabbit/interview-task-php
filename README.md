@@ -41,16 +41,16 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 ```php
 class CraftPluginPackage implements \JsonSerializable
 {
-	public string $name;
-	public string $description;
-	public string $handle; // versions[0].extra.handle attribute
-	public string $repository;
-	public ?string $testLibrary;
-	public string $version; // most recent branch
-	public int $downloads; // downloads.monthly
-	public int $dependents;
-	public int $favers;
-	public DateTime $updated;
+  public string $name;
+  public string $description;
+  public string $handle; // versions[0].extra.handle attribute
+  public string $repository;
+  public ?string $testLibrary;
+  public string $version; // most recent branch
+  public int $downloads; // downloads.monthly
+  public int $dependents;
+  public int $favers;
+  public DateTime $updated;
 }
 ```
 
