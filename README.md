@@ -69,7 +69,7 @@ See the schema to understand the `handle` attribute: [https://craftcms.com/docs/
 
 ## Questions and feedback
 
-- Create Issues with this repo.
+- [Create a Issues](https://github.com/fortrabbit/interview-task-php/issues) with this repo.
 - Ask early if things are not clear
 - Tell us if you are stuck, it's not a shame to ask for help
 - Let us know when you are done
