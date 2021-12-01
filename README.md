@@ -30,11 +30,10 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 - The entire list of packages contains ~1.600 items
 - Make use of PHP 8 language constructs if they make sense to you
 - Make use of existing packages if they make sense to you
-- Demonstrate that you understand OOP, but don't overdo it
 - There is probably more than one API call are required to retrieve the data
 - There is no knowledge about Craft CMS required. In theory, analyzing other [package types](https://getcomposer.org/doc/04-schema.md#type) can make sense in the future.
 - Defining the name of the tool is up to you
-- Write tests, but don't overdo it
+- Demonstrate best practices (e.g. OOP, tests, docs), but be pragmatic.
 
 ### Work with collections of objects described below
 
@@ -64,7 +63,7 @@ See the schema to understand the `handle` attribute: [https://craftcms.com/docs/
 ## Timing
 
 - Please complete within 7 days
-- The task should not require more than 1-2 days of focused work
+- The task should not require more than 10 hours of focused work (take a break)
 - Please also let us know
 
 ## Questions and feedback
