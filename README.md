@@ -64,7 +64,6 @@ See the schema to understand the `handle` attribute: [https://craftcms.com/docs/
 
 - Please complete within 7 days
 - The task should not require more than 10 hours of focused work (take a break)
-- Please also let us know
 
 ## Questions and feedback
 
