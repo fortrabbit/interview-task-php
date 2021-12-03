@@ -14,11 +14,12 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 - Query the `packagist.org` API to retrieve the data ([follow the best practices when using the API](https://packagist.org/apidoc)).
 - When working with the data set, performance is more important than real time data.
 - Skip abandoned packages.
+- Skip packages without a `extra.handle` attribute.
 - Consider this tool NOT as a one-off-script, treat it as a piece of software that is maintained in the long run.
 
 ## Command options
 
-```jsx
+```bash
 --limit (defaults to 50)
 --orderBy (field, allowed values: downloads, favers, dependents, updated (defaults to downloads))
 --order (ASC or DESC (defaults to DESC))
@@ -41,7 +42,7 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 class CraftPluginPackage implements \JsonSerializable
 {
   public string $name;
-  public string $description;
+  public ?string $description;
   public string $handle; // versions[0].extra.handle attribute
   public string $repository;
   public ?string $testLibrary;
