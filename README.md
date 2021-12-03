@@ -4,8 +4,8 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 
 ## Task
 
-- Create a stand-alone PHP CLI that provides a list of all composer packages of type `craft-plugin`.
-- Output the data as a table or to a `json`file, see definition below.
+- Create a stand-alone PHP CLI tool that provides a list of all composer packages of type `craft-plugin`.
+- Output the data as a table or to a `json` file, see definition below.
 - Create a GitHub repo that contains the code.
 - Write a `README.md` that explains the tool.
 
@@ -31,8 +31,8 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 - The entire list of packages contains ~1.600 items
 - Make use of PHP 8 language constructs if they make sense to you
 - Make use of existing packages if they make sense to you
-- There is probably more than one API call are required to retrieve the data
-- There is no knowledge about Craft CMS required. In theory, analyzing other [package types](https://getcomposer.org/doc/04-schema.md#type) can make sense in the future.
+- There is probably more than one API call required to retrieve the data
+- There is no knowledge about Craft CMS expected. In theory, analyzing other [package types](https://getcomposer.org/doc/04-schema.md#type) can make sense in the future.
 - Defining the name of the tool is up to you
 - Demonstrate best practices (e.g. OOP, tests, docs), but be pragmatic.
 
