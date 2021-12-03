@@ -61,6 +61,11 @@ See the schema to understand the `handle` attribute: [https://craftcms.com/docs/
 - Don't register the package on packagist
 - Don't create a `.phar`
 
+
+## Bonus
+
+Provide instructions in the README.md about how to install the tool on a macos/linux system, assuming `composer` and `php` is available. You can expect some command line experience from the user. For convenience, the command should be executable from any location without specifying the path to the executable. 
+
 ## Timing
 
 - Please complete within 7 days
