@@ -21,7 +21,7 @@ Understanding the Craft CMS eco system is important to fortrabbit. The "marketin
 
 ```bash
 --limit (defaults to 50)
---orderBy (field, allowed values: downloads, favers, dependents, updated (defaults to downloads))
+--orderBy (field, allowed values: downloads, favers, dependents, testLibrary, updated (defaults to downloads))
 --order (ASC or DESC (defaults to DESC))
 --output (path to the json file (if not set, table output to stdout is expected))
 ```
@@ -45,7 +45,7 @@ class CraftPluginPackage implements \JsonSerializable
   public ?string $description;
   public string $handle; // versions[0].extra.handle attribute
   public string $repository;
-  public ?string $testLibrary;
+  public ?string $testLibrary; // detect the test library the package uses (e.g. phpunit/phpunit)
   public string $version; // most recent branch
   public int $downloads; // downloads.monthly
   public int $dependents;
